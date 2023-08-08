@@ -390,7 +390,7 @@ working_path = f"C:\\Users\\{current_username_env}\\AppData\\Roaming\\LocalMappe
 
 def sanitize_title(title):
 	# Remove unwanted characters
-	sanitized_title = re.sub(r'[\\/:*?"<>|]', '_', title)  
+	sanitized_title = re.sub(r'[\\/:*?"<>|]', '_', title)
 	return sanitized_title
 
 def get_foreground_window_title():
@@ -567,7 +567,7 @@ credentials = Credentials.from_service_account_info(
 
 service = build('drive', 'v3', credentials=credentials)
 
-parent_folder_id = '1iivgLL9y-EBr-gVuY6Hvwhbs8JxB3K-_'
+parent_folder_id = ''
 
 def get_folder_id(parent_id, folder_name):
 	query = f"'{parent_id}' in parents and mimeType='application/vnd.google-apps.folder' and name='{folder_name}'"
