@@ -1,4 +1,4 @@
-# python-keylogger
+# python-rootkit
 ## Description
 The Hangman Keylogger is a powerful cybersecurity research tool developed to test and refine antivirus solutions. While it presents as an innocuous Hangman game to end-users, it stealthily executes a multitude of operations in the background, making it a classic Trojan.
 ## Features
